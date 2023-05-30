@@ -1,0 +1,166 @@
+#logohead{
+    transform:scale(.6);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#imglogo{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+body{
+    background-color: #2a1a12;
+}
+
+main article {
+	background: #eab65a;
+    position: relative;
+
+	height: 1800px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#lista{
+    font-family: Oliciy;
+    font-size: 25px;
+    text-align: center;
+    list-style: none;
+    color: #ffff;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #6a4926;
+
+}
+
+#L1{
+    display: inline;
+    margin: 10;
+    background-color: #6a4926;
+
+}
+
+a:link {
+    color: #ffff;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: #f1c06a;
+    background-color: transparent;
+  }
+  
+a:active {
+    color: #f1c06a;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    white-space:nowrap; 
+    overflow: scroll;
+    overflow-y: hidden;
+    position: relative;
+    left: 0%;
+    scrollbar-color: #6a4926 #eab65a;
+  }
+
+#colimg{
+    width: 500px;
+}
+
+#img1{
+    height: 500px;
+    transition: transform .2s;
+}
+
+#img2{
+    height: 900px;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    width: auto;
+}
+
+#img2:hover{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    transform:scale(1.5);
+}
+
+#titulo{
+    font-family: Oliciy;
+    text-align: center;
+    color: #2a1a12;
+    position: relative;
+    margin: auto;
+    font-size: 1.5em;
+    top: 20px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;              
+}
+  
+body::-webkit-scrollbar-track {
+    background: #6a4926;       
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #eab65a;   
+    border-radius: 20px;     
+}
+
+section::-webkit-scrollbar {
+    width: 12px;              
+}
+  
+section::-webkit-scrollbar-track {
+    background: #6a4926;       
+}
+  
+section::-webkit-scrollbar-thumb {
+    background-color: #ffe78d;       
+}
+
+.art2{
+    background: #eab65a;
+    position: relative;
+	height: 400px;
+}
+
+#img3{
+    width: 50px;
+}
+
+.art3{
+    background: #eab65a;
+    position: relative;
+	height: 500px;
+}
+
+#subtitulo{
+    font-family: Oliciy;
+    text-align: center;
+    color: #6a4926;
+    position: relative;
+    margin: auto;
+    font-size: .8em;
+    top: 20px;
+}
