@@ -164,3 +164,7 @@ section::-webkit-scrollbar-thumb {
     font-size: .8em;
     top: 20px;
 }
+
+#bottom{
+    line-height: 8;
+}
