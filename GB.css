@@ -53,7 +53,7 @@ a:link {
   }
   
 a:visited {
-    color: pink;
+    color: #ffff;
     background-color: transparent;
     text-decoration: none;
   }
