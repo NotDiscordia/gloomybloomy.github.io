@@ -18,8 +18,7 @@ body{
 main article {
 	background: #eab65a;
     position: relative;
-
-	height: 1800px;
+	height: 1600px;
 }
 
 a{
@@ -53,7 +52,7 @@ a:link {
   }
   
 a:visited {
-    color: #ffff;
+    color: rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: none;
   }
@@ -142,11 +141,16 @@ section::-webkit-scrollbar-thumb {
 .art2{
     background: #eab65a;
     position: relative;
-	height: 400px;
+	height: 500px;
 }
 
-#img3{
+.img3{
     width: 50px;
+    background: none;
+}
+
+.img3:hover{
+    background: #fff;
 }
 
 .art3{
