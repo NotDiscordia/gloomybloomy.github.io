@@ -141,15 +141,15 @@ section::-webkit-scrollbar-thumb {
 .art2{
     background: #eab65a;
     position: relative;
-	height: 500px;
+	height: 600px;
 }
 
-.img3{
+#img3{
     width: 50px;
     background: none;
 }
 
-.img3:hover{
+#img3:hover{
     background: #fff;
 }
 
